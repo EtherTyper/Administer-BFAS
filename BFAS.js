@@ -28,9 +28,9 @@ for (const trait in bfas.Aspects) {
     minimum[aspect] = 0;
 
     for (const [weight, ...questions] of bfas.Items[aspect]) {
+      minimum[aspect] += (weight === -1 ? -5 : 1) * questions.length;
       for (const question of questions) {
         quiz.push([question, weight, aspect]);
-        minimum[aspect] += weight === -1 ? -5 : 1;
       }
     }
 
