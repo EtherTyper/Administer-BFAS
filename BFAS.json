@@ -1,0 +1,206 @@
+{
+  "Aspects": {
+    "Neuroticism": [
+      "Volatility",
+      "Withdrawal"
+    ],
+    "Agreeableness": [
+      "Compassion",
+      "Politeness"
+    ],
+    "Conscientiousness": [
+      "Industriousness",
+      "Orderliness"
+    ],
+    "Extraversion": [
+      "Enthusiasm",
+      "Assertiveness"
+    ],
+    "Openness/Intellect": [
+      "Intellect",
+      "Openness"
+    ]
+  },
+  "Items": {
+    "Volatility": [
+      [
+        1,
+        "Get angry easily.",
+        "Get upset easily.",
+        "Change my mood a lot.",
+        "Am a person whose moods go up and down easily.",
+        "Get easily agitated.",
+        "Can be stirred up easily."
+      ],
+      [
+        -1,
+        "Rarely get irritated.",
+        "Keep my emotions under control.",
+        "Rarely lose my composure.",
+        "Am not easily annoyed."
+      ]
+    ],
+    "Withdrawal": [
+      [
+        1,
+        "Am filled with doubts about things.",
+        "Feel threatened easily.",
+        "Worry about things.",
+        "Am easily discouraged.",
+        "Become overwhelmed by events.",
+        "Am afraid of many things."
+      ],
+      [
+        -1,
+        "Seldom feel blue.",
+        "Feel comfortable with myself.",
+        "Rarely feel depressed.",
+        "Am not embarrassed easily."
+      ]
+    ],
+    "Compassion": [
+      [
+        1,
+        "Feel others’ emotions.",
+        "Inquire about others’ well-being.",
+        "Sympathize with others’ feelings.",
+        "Take an interest in other people’s lives.",
+        "Like to do things for others."
+      ],
+      [
+        -1,
+        "Am not interested in other people’s problems.",
+        "Can’t be bothered with other’s needs.",
+        "Am indifferent to the feelings of others.",
+        "Take no time for others.",
+        "Don’t have a soft side."
+      ]
+    ],
+    "Politeness": [
+      [
+        1,
+        "Respect authority.",
+        "Hate to seem pushy.",
+        "Avoid imposing my will on others.",
+        "Rarely put people under pressure."
+      ],
+      [
+        -1,
+        "Insult people.",
+        "Believe that I am better than others.",
+        "Take advantage of others.",
+        "Seek conflict.",
+        "Love a good fight.",
+        "Am out for my own personal gain."
+      ]
+    ],
+    "Industriousness": [
+      [
+        1,
+        "Carry out my plans.",
+        "Finish what I start.",
+        "Get things done quickly.",
+        "Always know what I am doing."
+      ],
+      [
+        -1,
+        "Waste my time.",
+        "Find it difficult to get down to work.",
+        "Mess things up.",
+        "Don’t put my mind on the task at hand.",
+        "Postpone decisions.",
+        "Am easily distracted."
+      ]
+    ],
+    "Orderliness": [
+      [
+        1,
+        "Like order.",
+        "Keep things tidy.",
+        "Follow a schedule.",
+        "Want everything to be “just right.”",
+        "See that rules are observed.",
+        "Want every detail taken care of."
+      ],
+      [
+        -1,
+        "Leave my belongings around.",
+        "Am not bothered by messy people.",
+        "Am not bothered by disorder.",
+        "Dislike routine."
+      ]
+    ],
+    "Enthusiasm": [
+      [
+        1,
+        "Make friends easily.",
+        "Warm up quickly to others.",
+        "Show my feelings when I’m happy.",
+        "Have a lot of fun.",
+        "Laugh a lot."
+      ],
+      [
+        -1,
+        "Am hard to get to know.",
+        "Keep others at a distance.",
+        "Reveal little about myself.",
+        "Rarely get caught up in the excitement.",
+        "Am not a very enthusiastic person."
+      ]
+    ],
+    "Assertiveness": [
+      [
+        1,
+        "Take charge.",
+        "Have a strong personality.",
+        "Know how to captivate people.",
+        "See myself as a good leader.",
+        "Can talk others into doing things.",
+        "Am the first to act."
+      ],
+      [
+        -1,
+        "Do not have an assertive personality.",
+        "Lack the talent for influencing people.",
+        "Wait for others to lead the way.",
+        "Hold back my opinions."
+      ]
+    ],
+    "Intellect": [
+      [
+        1,
+        "Am quick to understand things.",
+        "Can handle a lot of information.",
+        "Like to solve complex problems.",
+        "Have a rich vocabulary.",
+        "Think quickly.",
+        "Formulate ideas clearly."
+      ],
+      [
+        -1,
+        "Have difficulty understanding abstract ideas.",
+        "Avoid philosophical discussions.",
+        "Avoid difficult reading material.",
+        "Learn things slowly."
+      ]
+    ],
+    "Openness": [
+      [
+        1,
+        "Enjoy the beauty of nature.",
+        "Believe in the importance of art.",
+        "Love to reflect on things.",
+        "Get deeply immersed in music.",
+        "See beauty in things that others might not notice.",
+        "Need a creative outlet."
+      ],
+      [
+        -1,
+        "Do not like poetry.",
+        "Seldom get lost in thought.",
+        "Seldom daydream.",
+        "Seldom notice the emotional aspects of paintings and pictures."
+      ]
+    ]
+  }
+}
