@@ -10,6 +10,7 @@ function shuffleArray(array) {
 
 let quiz = [];
 const results = {};
+const minimum = {};
 
 for (const trait in bfas.Aspects) {
   for (const aspect of bfas.Aspects[trait]) {
@@ -24,12 +25,16 @@ for (const trait in bfas.Aspects) {
     }
 
     results[aspect] = 0;
+    minimum[aspect] = 0;
 
     for (const [weight, ...questions] of bfas.Items[aspect]) {
       for (const question of questions) {
         quiz.push([question, weight, aspect]);
+        minimum[aspect] += weight === -1 ? -5 : 1;
       }
     }
+
+    results[aspect] -= minimum[aspect]; // Scale from 0 to 40 for each aspect.
   }
 }
 
@@ -40,6 +45,8 @@ for (const [question, weight, aspect] of quiz) {
   do {
     number = parseInt(prompt(question));
   } while (!(typeof number === 'number' && 1 <= number && number <= 5));
+  // let number = 3 - 2 * weight; // Minimum
+  // let number = 3 + 2 * weight; // Maximum
 
   results[aspect] += weight * number;
 }
